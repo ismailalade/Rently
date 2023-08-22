@@ -1,6 +1,6 @@
 # Rently - Your Property Rental Platform
 
-![Rently Logo](Rently/img/logo.png)
+![Rently Logo](img/logo.png)
 
 Rently is a comprehensive property rental platform that connects landlords and tenants directly, eliminating the need for intermediaries. With Rently, landlords can showcase their properties, and tenants can easily find and book their ideal rental homes. This project is designed to streamline the property rental process and provide a seamless user experience.
 
@@ -38,6 +38,7 @@ Rently is a comprehensive property rental platform that connects landlords and t
 
 ## Contributing
 Favour Ocheja <favourocheja@gmail.com>
+
 Samuel John <samueljohn3999@gmail.com>
 
 We welcome contributions! If you'd like to contribute to Rently, please follow these steps:
