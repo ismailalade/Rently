@@ -1,5 +1,3 @@
-# Rently - Your Property Rental Platform
-
 ![Rently Logo](img/logo.png)
 *Discover, Connect, Rent*
 
