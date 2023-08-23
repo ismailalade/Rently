@@ -107,6 +107,6 @@ header {
 }
 
 .input-container button:hover {
-  background-color: black; /* Change the background color */
-  color: white; /* Change the text color */
+  background-color: black;
+  color: white;
 }
