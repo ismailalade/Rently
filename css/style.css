@@ -211,7 +211,7 @@ form input {
 form button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -231,7 +231,7 @@ form button {
 
 
 form button:hover {
-    background-color: #45a049;
+    background-color: #007BFF;
 }
 
 p {
@@ -240,7 +240,7 @@ p {
 }
 
 a {
-    color: #4CAF50;
+    color: #007BFF;
     text-decoration: none;
 }
 

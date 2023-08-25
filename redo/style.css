@@ -24,6 +24,13 @@ body {
 
 }
 
+#menu-icon{
+    font-size: 3.6rem;
+    color: lightseagreen;
+    cursor: pointer;
+    display: none;
+}
+
 .nav_links{
     display: flex; /* Use flex display to arrange links in a row */
     gap: 15px; /* Add a gap of 20px between links */
@@ -88,7 +95,7 @@ body {
 .search-box {
     text-align: center;
     margin-top: 20px;
-    width: auto;
+    width: 700px;
 }
 
 .input-container {
@@ -96,7 +103,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -119,10 +126,10 @@ body {
     background-color: #007BFF;
     color: white;
     cursor: pointer;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     border: none;
     transition: background-color 0.3s, color 0.3s;
     margin: 5px 10px 5px;
