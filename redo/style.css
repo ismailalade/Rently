@@ -172,7 +172,7 @@ body {
     flex-direction: row;
     position: relative;
     top: 100px;
-    left: 40px;
+    left: 20px;
     gap: 26px;
 }
 
@@ -183,16 +183,14 @@ body {
     border: 1px solid #000;
 }
 
-.btn-box .btn{
-    /* width: 121px;
-    height: 46px; */
+/* .btn-box .btn{
     display: inline-flex;
     border-radius: 5px;
     border: 1px solid #000;
     justify-content: center;
     align-items: center;
     
-}
+} */
 
 .btn-box {
     position: relative;
@@ -201,4 +199,24 @@ body {
     height: 36px;
     gap: 26px;
  }
+
+.btn{
+    display: inline-block;
+    width: 328px;
+    height: 36px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 36px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #4561EC; /* Darker color on hover */
+}
+
 
