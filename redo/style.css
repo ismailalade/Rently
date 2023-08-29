@@ -139,3 +139,46 @@ body {
     background-color: black;
     color: white;
 } 
+
+/* This section is for listings */
+
+.lists .map{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.list_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 720px;
+    height: 100%;
+    /* flex-shrink: 0; */
+    background: white;
+}
+
+.nav-hist{
+   position: absolute;
+   top: 160px;
+   left: 40px;
+}
+
+.search{
+    width: 328px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.search .btn-box .btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 26px;
+}
+.btn-box .btn{
+    width: 121px;
+    height: 46px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
