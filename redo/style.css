@@ -219,4 +219,51 @@ body {
     background-color: #4561EC; /* Darker color on hover */
 }
 
+/* .info{
+    display: flex;
+    width: 683px;
+    /* padding: 13px 12px;
+    align-items: flex-start;
+    gap: 483px;
+    background: #F4F2F2;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    max-width: 100rem;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+} */
+
+.info {
+    display: flex;
+    width: 683px;
+    padding: 13px 12px;
+    background: #F4F2F2;
+    position: relative;
+    top: 130px;
+    left: 20px;
+    max-width: 100rem;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: space-between; /* Adjust alignment */
+}
+
+.info p {
+    margin: 0; /* Remove default margin */
+}
+
+.info span {
+    font-weight: bold; /* Make the span text bold */
+    color: #4561EC;
+}
+
 
