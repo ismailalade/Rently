@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Property Listing Form</title>
+</head>
+<body>
+    <h1>Property Listing Form</h1>
+    <form action="/submit_property" method="post">
+        <!-- ... The rest of your form HTML ... -->
+    </form>
+
+    <h2>Listed Properties</h2>
+    <ul>
+        {% for property in property_listing %}
+        <li>
+            <strong>Property Type:</strong> {{ property['property_type'] }}<br>
+            <strong>Location:</strong> {{ property['location'] }}<br>
+            <strong>Address:</strong> {{ property['address'] }}<br>
+            <strong>Price:</strong> {{ property['price'] }}<br>
+            <strong>Description:</strong> {{ property['description'] }}<br>
+            <img src="{{ property['image_url'] }}" alt="Property Image" style="max-width: 300px;">
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
