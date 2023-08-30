@@ -128,7 +128,7 @@ body {
 }
 
 .input-container button {
-    background-color: #007BFF;
+    background-color: #4561EC;
     color: white;
     cursor: pointer;
     border-top-right-radius: 10px;
@@ -269,6 +269,26 @@ body {
 .info span {
     font-weight: bold; /* Make the span text bold */
     color: #4561EC;
+}
+
+/* Form button */
+.animated-button {
+    display: inline-block;
+    background-color: #4561EC;
+    color: #fff;
+    margin-left: 45%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+    background-color: black;
 }
 
 
