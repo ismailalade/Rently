@@ -64,7 +64,12 @@ body {
 }
 
 .property-form h2 {
-    margin-top: 0;
+    /* margin-top: 0;
+    margin-left: 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
 fieldset {
@@ -117,4 +122,32 @@ button[type="submit"]:hover {
 
 textarea {
     resize: vertical;
+}
+
+
+/* Pricing */
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4561EC;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#price-output {
+    display: block;
+    margin-top: 5px;
 }

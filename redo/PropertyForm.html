@@ -21,9 +21,9 @@
                 <a>|</a>
                 <a href="#">Listings</a>
                 <a>|</a>
-                <a href="#">Bookings</a>
+                <!-- <a href="#">Bookings</a>
                 <a>|</a>
-                <a href="#">Reviews</a>
+                <a href="#">Reviews</a> -->
                 <a>|</a>
                 <a href="#">Log in</a>
             </div>
@@ -32,7 +32,7 @@
 
 
     <form class="property-form">
-        <h2>Post Your Available House</h2>
+        <h2>Register Your Property</h2>
 
         <!-- Basic Information -->
         <fieldset>
@@ -43,7 +43,7 @@
             <label for="last-name">Last Name:</label>
             <input type="text" id="last-name" name="last-name" required>
     
-            <label for="landlord-name">Address</label>
+            <label for="landlord-name">Address:</label>
             <input type="text" id="landlord-name" name="landlord-name" required>
             <!-- Add more basic information fields here -->
         </fieldset>
@@ -58,14 +58,16 @@
                 <option value="apartment">Apartment</option>
                 <!-- Add more property type options here -->
             </select>
-            <!-- <label for="numberofbeds">Number of Beds:</label>
-            <select id="numberofbes" name="numberofbeds">
+
+            <label for="numberofbeds">Number of Beds:</label>
+            <select id="numberofbeds" name="numberofbeds">
                 <option value="duplex">1</option>
                 <option value="bongalow">2</option>
                 <option value="apartment">3</option>
                 <option value="apartment">4</option>
                 <option value="apartment">5</option>
-                <option value="apartment">Other</option> -->
+                <option value="apartment">Other</option>
+            </select>
 
             <!-- Add more property information fields here -->
         </fieldset>
@@ -97,9 +99,14 @@
 
         <!-- Price Information -->
         <fieldset>
+            <!-- <legend>Price of Property per Annum</legend>
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required> -->
+
             <legend>Price of Property per Annum</legend>
             <label for="price">Price:</label>
-            <input type="number" id="price" name="price" required>
+            <input type="range" id="price" name="price" min="100000" max="1000000" step="1000" value="100000">
+            <output for="price" id="price-output">N100,000</output>
 
             <!-- Add more price information fields here -->
         </fieldset>
@@ -121,7 +128,7 @@
         <button type="submit">Submit</button>
     </form>    
     
-    <script>
+    <!-- <script>
         const stateSelect = document.getElementById('state');
         const lgaSelect = document.getElementById('lga');
 
@@ -267,7 +274,8 @@
                 lgaSelect.appendChild(option);
             });
         });
-    </script>
+    </script> -->
+    <script src="/redo/PropertyForm.js"></script>
 
 
 </body>
