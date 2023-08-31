@@ -36,9 +36,9 @@ Rently is a comprehensive property rental platform that connects landlords and t
 
 
 ## Contributing
-Favour Ocheja <favourocheja@gmail.com>
+Ismail Alade <ismailalade1992@gmail.com>
 
-Samuel John <samueljohn3999@gmail.com>
+Umar Abdullahi <uausofteng@gmail.com>
 
 We welcome contributions! If you'd like to contribute to Rently, please follow these steps:
 
