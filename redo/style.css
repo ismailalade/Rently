@@ -157,6 +157,10 @@ body {
 
 }
 
+.lists, .map{
+    display: flex;
+    flex-direction: row;
+}
 
 .list_top{
     width: 720px;
@@ -164,6 +168,7 @@ body {
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
 .nav-hist{
@@ -292,6 +297,13 @@ body {
 }
 
 .map {
-    height: 600px;
+    position: absolute fixed;
+    left: 721px;
+    bottom: 39.8%;
+    width: 629px;
+    height: 550px; 
+    z-index: -1;
 }
+
+
 
