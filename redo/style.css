@@ -59,6 +59,22 @@ body {
     z-index: 2;   
 }
 
+.formicon  {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+/* Add this to your existing CSS */
+a img {
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover .formicon {
+    transform: scale(1.2); /* Increase the scale factor as needed */
+}
+
 
 .image {
     display: flex;
